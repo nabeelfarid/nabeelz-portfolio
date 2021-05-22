@@ -1,0 +1,69 @@
+{
+  "portfolio": [
+    {
+      "id": "100",
+      "code": "12-E",
+      "image": "kulfi.png",
+      "title": "Virtual Kulfi",
+      "subtitle": "Create a virtual kulfi for your loved ones",
+      "description": "One of the principles of JAMstack is that of pre-rendering. In other words, it generates your site into a collection of static assets in advance, so that it can be served to your visitors with maximum speed and minimum overhead from a CDN or other optimized static hosting environment. But if we are going to pre-generate our sites ahead of time, how do we make them feel dynamic? How do we build sites that need to change often? How do we work with things like user generated content?",
+      "techStack": "Gatsby, Netlify, FaunaDB, Formik, Storybook6, Material-UI",
+      "repo": "https://github.com/nabeelfarid/virtual-kulfi",
+      "url": "https://vkulfi.netlify.app/",
+      "article": "https://css-tricks.com/static-first-pre-generated-jamstack-sites-with-serverless-rendering-as-a-fallback/",
+      "todos": "Trigger Netlify build to rebuild website on creation of a new kulfi; Add components to StoryBook; Deploy StoryBook"
+    },
+    {
+      "id": "95",
+      "code": "12-D",
+      "image": "bookmarker.png",
+      "title": "Bookmarking Application",
+      "subtitle": "A site to store and publish any interesting articles I come across in my daily technology reading.",
+      "description": "Generates a static home page with a list of all the bookmarks on demand",
+      "techStack": "FaunaDB, Netlify, Gatsby",
+      "repo": "https://github.com/nabeelfarid/virtual-kulfi",
+      "url": "https://nf-bookmarker.netlify.app/",
+      "article": "https://www.smashingmagazine.com/2019/10/bookmarking-application-faunadb-netlify-11ty/",
+      "todos": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget."
+    },
+    {
+      "id": "90",
+      "code": "12C",
+      "image": "todo.png",
+      "title": "Todo App",
+      "subtitle": "JAMStack Todo app with Netlify, Gatsby, GraphQL, and FaunaDB.",
+      "description": "Building a Serverless JAMStack Todo app with Netlify, Gatsby, GraphQL, and FaunaDB.",
+      "techStack": "GraphQL, FaunaDB, Netlify, Gatsby",
+      "repo": "https://github.com/nabeelfarid/jamstack-todo",
+      "url": "https://nf-jamstack-todo.netlify.app/",
+      "article": "https://egghead.io/playlists/building-a-serverless-jamstack-todo-app-with-netlify-gatsby-graphql-and-faunadb-53bb",
+      "todos": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget."
+    },
+    {
+      "id": "85",
+      "code": "12-B",
+      "image": "todo.png",
+      "title": "FaunaDB CRUD",
+      "subtitle": "Building Serverless CRUD apps with Netlify Functions and FaunaDB",
+      "description": "Building Serverless CRUD apps with Netlify Functions and FaunaDB. Already done in project 12C Todo App",
+      "techStack": "FaunaDB, Netlify, Gatsby",
+      "repo": "https://github.com/nabeelfarid/jamstack-todo",
+      "url": "https://nf-jamstack-todo.netlify.app/",
+      "article": "https://www.netlify.com/blog/2018/07/09/building-serverless-crud-apps-with-netlify-functions-faunadb/",
+      "todos": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget."
+    },
+    {
+      "id": "80",
+      "code": "12-A",
+      "image": "blogsite.png",
+      "title": "Blog Site",
+      "subtitle": "in Gatsby.js and Contentful with TypeScript and Deploy on Netlify.",
+      "description": "A Blog site in Gatsby.js and Contentful with TypeScript and Deploy on Netlify. Built with gated content, available only for logged-in users. However we still want the blogs to be indexed for SEO reasons, and would like visitors (not logged in) have access to 3 free blogs (just like Medium), after that we want to user to get a “limited” access to each page (maybe 20 lines or so), just like news website sometimes do. The logged-in users will have unlimited access to all the blogs. ",
+      "techStack": "Gatsby, Contentful, TypeScript, Netlify Authentication, Netlify Functions",
+      "repo": "https://github.com/nabeelfarid/gatsby-contentful-blogsite",
+      "url": "https://nf-gatsby-contentful-blogsite.netlify.app/",
+      "article": "https://ibaslogic.com/gatsby-with-contentful-cms/",
+      "todos": "Used Netlify Authentication instead of Firebase"
+    }
+  ]
+}
