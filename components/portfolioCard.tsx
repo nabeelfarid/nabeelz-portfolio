@@ -1,4 +1,5 @@
 import {
+  Box,
   Card,
   Avatar,
   CardHeader,
@@ -12,6 +13,7 @@ import {
   Accordion,
   AccordionSummary,
   AccordionDetails,
+  colors,
 } from "@material-ui/core";
 import {
   GitHub,
@@ -42,20 +44,31 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({ project }) => {
         avatar={
           <Avatar
             style={{
-              backgroundColor: theme.palette.primary.main,
+              backgroundColor: colors.pink[500], // theme.palette.primary.main,
               whiteSpace: "nowrap",
-              fontSize: theme.spacing(1.75),
+              fontSize: theme.spacing(1.5),
+              width: theme.spacing(4),
+              height: theme.spacing(4),
+              color: "white",
             }}
           >
             {project.code}
           </Avatar>
         }
-        title={project.title}
+        title={
+          <Typography variant="h6" component="div">
+            {project.title}
+          </Typography>
+        }
         // subheader={project.code}
       />
       <CardActionArea href={project.repo} target="_blank" rel="noopener">
         <CardMedia
-          style={{ width: "100%", paddingTop: "56.25%" }} //16:9
+          style={{
+            width: "100%",
+            paddingTop: "56.25%",
+            backgroundSize: "100% 100%",
+          }} //16:9
           image={`/images/${project.image}`}
           title={project.title}
         />

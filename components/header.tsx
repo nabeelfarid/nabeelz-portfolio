@@ -7,6 +7,7 @@ import {
   Grid,
   AppBar,
   Toolbar,
+  colors,
 } from "@material-ui/core";
 import GithubCorner from "react-github-corner";
 
@@ -26,7 +27,7 @@ const Header: React.FC<HeaderProps> = (props) => {
         <Toolbar>
           <GithubCorner
             href={props.siteMetadata.repo}
-            bannerColor={theme.palette.secondary.dark}
+            bannerColor={colors.deepOrange[500]}
             size={64}
             target="_blank"
             rel="noopener"
