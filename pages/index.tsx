@@ -20,7 +20,7 @@ interface IndexPageProps {
 }
 
 const IndexPage: React.FC<IndexPageProps> = ({ portfolio }) => {
-  console.log("portfolio", portfolio);
+  // console.log("portfolio", portfolio);
   return (
     <Layout>
       <Grid container spacing={4}>
