@@ -18,12 +18,68 @@ const Layout: React.FC<LayoutProps> = ({ children, title }) => {
   return (
     <>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
+        {/* <!-- ****** faviconit.com favicons ****** --> */}
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="196x196"
+          href="/favicon-192.png"
         />
-        <meta name="og:title" content={siteMetadata.title} />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="160x160"
+          href="/favicon-160.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="96x96"
+          href="/favicon-96.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="64x64"
+          href="/favicon-64.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16.png"
+        />
+        <link rel="apple-touch-icon" href="/favicon-57.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png" />
+        <link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png" />
+        <meta name="msapplication-TileColor" content="#FFFFFF" />
+        <meta name="msapplication-TileImage" content="/favicon-144.png" />
+        <meta name="msapplication-config" content="/browserconfig.xml" />
+        {/* <!-- ****** faviconit.com favicons ****** --> */}
+
+        <meta name="description" content="Panacloud Bootcamp 2020 Portfolio" />
+        <meta property="og:title" content={siteMetadata.title} />
+        <meta property="og:url" content={siteMetadata.siteUrl} />
+        <meta
+          property="og:description"
+          content="Panacloud Bootcamp 2020 Portfolio"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/bootcamp.png" />
         {title && (
           <title>
             {title} | {siteMetadata.title}
@@ -45,28 +101,12 @@ const Layout: React.FC<LayoutProps> = ({ children, title }) => {
                   <MuiLink color="primary" href="https://nextjs.org/">
                     Next.js
                   </MuiLink>
-                  {", Powered by "}
+                </Typography>
+                <Typography>
+                  {"Powered by "}
                   <MuiLink color="primary" href="https://material-ui.com/">
                     Material-UI
                   </MuiLink>
-                </Typography>
-                <Typography>
-                  {/* {", "}
-                  <MuiLink
-                    color="primary"
-                    href="https://www.netlify.com/products/functions/"
-                  >
-                    Lambda Functions
-                  </MuiLink>
-                  {", "}
-                  <MuiLink color="primary" href="https://graphql.org/">
-                    GraphQL
-                  </MuiLink>
-                  {" and "}
-                  <MuiLink color="primary" href="https://fauna.com/">
-                    Fauna DB
-                  </MuiLink>
-                  {"."} */}
                 </Typography>
                 <Typography>
                   {"Hosted on "}
