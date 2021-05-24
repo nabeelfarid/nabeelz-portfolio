@@ -11,7 +11,7 @@
       "repo": "https://github.com/nabeelfarid/virtual-kulfi",
       "url": "https://vkulfi.netlify.app/",
       "article": "https://css-tricks.com/static-first-pre-generated-jamstack-sites-with-serverless-rendering-as-a-fallback/",
-      "todos": "Trigger Netlify build to rebuild website on creation of a new kulfi; Add components to StoryBook; Deploy StoryBook"
+      "todos": "Types for GraphQL schema, Trigger Netlify build to rebuild website on creation of a new kulfi; Add components to StoryBook; Deploy StoryBook"
     },
     {
       "id": "95",
@@ -24,7 +24,7 @@
       "repo": "https://github.com/nabeelfarid/bookmarker",
       "url": "https://nf-bookmarker.netlify.app/",
       "article": "https://www.smashingmagazine.com/2019/10/bookmarking-application-faunadb-netlify-11ty/",
-      "todos": ""
+      "todos": "Types for GraphQL schema"
     },
     {
       "id": "90",
@@ -37,7 +37,7 @@
       "repo": "https://github.com/nabeelfarid/jamstack-todo",
       "url": "https://nf-jamstack-todo.netlify.app/",
       "article": "https://egghead.io/playlists/building-a-serverless-jamstack-todo-app-with-netlify-gatsby-graphql-and-faunadb-53bb",
-      "todos": ""
+      "todos": "Types for GraphQL schema"
     },
     {
       "id": "85",
@@ -50,7 +50,7 @@
       "repo": "https://github.com/nabeelfarid/jamstack-todo",
       "url": "https://nf-jamstack-todo.netlify.app/",
       "article": "https://www.netlify.com/blog/2018/07/09/building-serverless-crud-apps-with-netlify-functions-faunadb/",
-      "todos": ""
+      "todos": "Types for GraphQL schema"
     },
     {
       "id": "80",
@@ -63,7 +63,7 @@
       "repo": "https://github.com/nabeelfarid/gatsby-contentful-blogsite",
       "url": "https://nf-gatsby-contentful-blogsite.netlify.app/",
       "article": "https://ibaslogic.com/gatsby-with-contentful-cms/",
-      "todos": "Try Firebase instead of Netlify Authentication"
+      "todos": "Try Firebase instead of Netlify Authentication, Types for GraphQL schema"
     },
     {
       "id": "75",
