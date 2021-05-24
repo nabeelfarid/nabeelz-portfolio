@@ -15,7 +15,7 @@ const siteMetadata: SiteMetaData = {
   description: `A place to learn all the latest around Serverless tech.`,
   author: `Nabeel`,
   repo: "https://github.com/nabeelfarid/panacloud-bootcamp-portfolio",
-  siteUrl: process.env.SITE_URL,
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL,
 };
 
 export default siteMetadata;
