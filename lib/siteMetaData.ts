@@ -9,12 +9,12 @@ interface SiteMetaData {
 }
 
 const siteMetadata: SiteMetaData = {
-  title: `Boot Camp Portfolio`,
+  title: `Nabeelz Portfolio`,
   subtitle: `because we love coding 👨‍💻`,
   slogan: `We love IaC!`,
   description: `A place to learn all the latest around Serverless tech.`,
   author: `Nabeel`,
-  repo: "https://github.com/nabeelfarid/panacloud-bootcamp-portfolio",
+  repo: "https://github.com/nabeelfarid/nabeelz-portfolio",
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL,
 };
 
