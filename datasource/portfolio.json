@@ -216,7 +216,7 @@
       "subtitle": "Building a COVID-19 Tracker App using React, Material-UI, Chart.js",
       "description": "Building a COVID-19 Tracker App using React, Material-UI, Chart.js",
       "techStack": "React, Material-UI, Chart.js, Disease.sh COVID-19 API",
-      "repo": "https://github.com/nabeelfarid/shoe-store",
+      "repo": "https://github.com/nabeelfarid/covid19-tracker",
       "url": "https://nf-covid-tracker.netlify.app/",
       "article": "https://youtu.be/khJlrj3Y6Ls",
       "todos": "Make use of React Suspense"
